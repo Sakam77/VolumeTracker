@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">VolumeTracker</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_watchlist">Watchlist</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Volume Alerts</string>
+    <string name="dashboard_empty">No volume spikes detected yet</string>
+    <string name="dashboard_empty_subtitle">Alerts will appear when 2x volume spikes are detected</string>
+    <string name="volume_spike_multiplier">%1$.1fx volume</string>
+    <string name="potential_gain">%1$.2fx since alert</string>
+    <string name="time_ago">%1$s ago</string>
+    <string name="price_at_alert">At alert: $%1$s</string>
+    <string name="current_price">Now: $%1$s</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Search coins by name, ticker, or address…</string>
+    <string name="search_empty">No results found</string>
+    <string name="search_recent">Recent searches</string>
+    
+    <!-- Coin Detail -->
+    <string name="detail_price">Price</string>
+    <string name="detail_market_cap">Market Cap</string>
+    <string name="detail_volume_24h">24h Volume</string>
+    <string name="detail_liquidity">Liquidity</string>
+    <string name="detail_holders">Holders</string>
+    <string name="detail_set_alert">Set Alert</string>
+    <string name="detail_add_watchlist">Add to Watchlist</string>
+    <string name="detail_remove_watchlist">Remove from Watchlist</string>
+    <string name="detail_view_on_solscan">View on Solscan</string>
+    <string name="detail_view_on_birdeye">View on Birdeye</string>
+    <string name="detail_view_on_gmgn">View on GMGN</string>
+    
+    <!-- Watchlist -->
+    <string name="watchlist_title">Watchlist</string>
+    <string name="watchlist_empty">No coins in watchlist</string>
+    <string name="watchlist_empty_subtitle">Add coins from search to track them</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_enable_notifications">Enable notifications</string>
+    <string name="settings_notification_sound">Notification sound</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_quiet_hours">Quiet hours</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_dark_theme">Dark theme</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_biometric">Require biometric authentication</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_disclaimer">Disclaimer</string>
+    
+    <!-- Disclaimer -->
+    <string name="disclaimer_title">Important Disclaimer</string>
+    <string name="disclaimer_text">This app is for informational purposes only. Not financial advice. Memecoin trading is extremely high-risk. Past volume spikes do not guarantee future gains. Always do your own research and never invest more than you can afford to lose.</string>
+    <string name="disclaimer_accept">I Understand</string>
+    <string name="disclaimer_decline">Exit</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Volume Spike Alerts</string>
+    <string name="notification_channel_description">Notifications for detected volume spikes</string>
+    <string name="notification_title">🚀 Volume Spike Detected!</string>
+    <string name="notification_text">%1$s (%2$s) • %3$.1fx volume • $%4$s</string>
+    
+    <!-- Alerts -->
+    <string name="alert_set_title">Set Custom Alert</string>
+    <string name="alert_volume_multiplier">Volume multiplier</string>
+    <string name="alert_save">Save Alert</string>
+    <string name="alert_delete">Delete Alert</string>
+    
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_network">Network error. Check your connection.</string>
+    <string name="error_invalid_address">Invalid Solana address</string>
+    <string name="error_not_found">Coin not found</string>
+    
+    <!-- Actions -->
+    <string name="action_retry">Retry</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_search">Search</string>
+    
+    <!-- Time periods -->
+    <string name="time_5m">5m</string>
+    <string name="time_15m">15m</string>
+    <string name="time_1h">1h</string>
+    <string name="time_4h">4h</string>
+    <string name="time_24h">24h</string>
+    
+    <!-- Loading -->
+    <string name="loading">Loading…</string>
+</resources>

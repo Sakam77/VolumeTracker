@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="neon_green">#00FF88</color>
+    <color name="alert_red">#FF4444</color>
+    
+    <!-- Material 3 Dynamic Colors -->
+    <color name="seed">#00FF88</color>
+</resources>
